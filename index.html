@@ -19,11 +19,17 @@
             padding: 20px 0;
             margin-bottom: 20px;
         }
+        .header-box {
+            display: inline-block;
+            background-color: #2e4c7a; /* Darker blue for header box */
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin-left: 10px;
+        }
         .container {
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #1b2a49; /* Middle section background */
             border-radius: 8px;
             box-shadow: 0 0 20px rgba(0,0,0,0.1);
         }
@@ -67,12 +73,17 @@
         .gamer-ids h3 {
             margin-bottom: 10px;
         }
+        .gamer-ids-box {
+            background-color: #2e4c7a; /* Darker blue for gamer IDs box */
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Niko Paned</h1>
-        <p>Student</p>
+        <h1>Niko Paned <span class="header-box">Student</span></h1>
     </header>
     <div class="container">
         <p>Hello! I'm Niko Paned, a tired guy who loves playing games and reading manga.</p>
@@ -92,18 +103,23 @@
             <!-- Add more social links as needed -->
         </div>
     </div>
-    <div class="gamer-ids">
-        <h3>Gamer IDs:</h3>
-        <p>Feel free to add me on these gaming platforms:</p>
-        <ul>
-            <li>Riot Games: tiredniko#9839</li>
-            <li>Crossfire: Tiredniko</li>
-            <li>Mobile Legends: Tiredniko 222978756(3513)</li>
-            <!-- Add more gaming IDs as needed -->
-        </ul>
+    <div class="gamer-ids-box">
+        <div class="container">
+            <div class="gamer-ids">
+                <h3>Gamer IDs:</h3>
+                <p>Feel free to add me on these gaming platforms:</p>
+                <ul>
+                    <li>Riot Games: tiredniko#9839</li>
+                    <li>Crossfire: Tiredniko</li>
+                    <li>Mobile Legends: Tiredniko 222978756(3513)</li>
+                    <!-- Add more gaming IDs as needed -->
+                </ul>
+            </div>
+        </div>
     </div>
 </body>
 </html>
+
 
 
 
