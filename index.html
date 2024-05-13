@@ -11,6 +11,7 @@
             padding: 0;
             background: linear-gradient(to bottom, #121d33, #1b2a49, #235380); /* Gradient from dark to light blue */
             color: #fff; /* White text */
+            position: relative; /* Position relative for absolute positioning */
         }
         header {
             background-color: #0e182e; /* Darker blue */
@@ -88,6 +89,13 @@
             border-radius: 8px;
             box-shadow: 0 0 20px rgba(0,0,0,0.1);
         }
+        .rickroll {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            font-size: 24px;
+            cursor: pointer;
+        }
     </style>
 </head>
 <body>
@@ -100,7 +108,7 @@
         <h2>Contact Information:</h2>
         <ul>
             <li>Email: nikopaned.official@gmail.com</li>
-			<li>Second Email: nikopaned.main@gmail.com</li>
+            <li>Second Email: nikopaned.main@gmail.com</li>
             <li>Phone: +639266132050</li>
             <li>Website: <a href="https://tiredniko.github.io/Introductions/">Website Link</a></li>
             <!-- Add more details as needed -->
@@ -137,6 +145,7 @@
             </ul>
         </div>
     </div>
+    <div class="rickroll" onclick="window.location.href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'">&#42;</div>
 </body>
 </html>
 
